@@ -26,3 +26,8 @@ Jupyter Notebook terdiri dari beberapa elemen:
 - **Sel (Cell)**: Unit utama untuk menulis kode atau teks.
 - **Kernel**: Proses yang menjalankan kode dalam notebook.
 - **Toolbar**: Berisi berbagai opsi untuk menjalankan kode, menyimpan notebook, dan mengelola sel.
+
+## 5. Jenis-Jenis Sel dalam Jupyter Notebook
+1. **Code Cell**: Digunakan untuk menulis dan menjalankan kode Python.
+2. **Markdown Cell**: Digunakan untuk menulis teks dengan format Markdown.
+3. **Raw Cell**: Menyimpan teks mentah tanpa format tertentu.
