@@ -52,3 +52,15 @@ Markdown digunakan untuk membuat teks terformat dalam notebook. Contoh:
 
 ## 8. Menyimpan dan Mengekspor Notebook
 Untuk menyimpan notebook, klik **File > Save and Checkpoint**. Notebook juga bisa diekspor ke format lain seperti **HTML, PDF, dan script Python** melalui **File > Download as**.
+
+## 9. Keuntungan Menggunakan Jupyter Notebook
+- Interaktif dan mudah digunakan.
+- Mendukung visualisasi data.
+- Cocok untuk eksplorasi data dan machine learning.
+- Dapat digunakan dalam berbagai bahasa pemrograman selain Python.
+
+## 10. Kesimpulan
+Jupyter Notebook adalah alat yang sangat berguna untuk belajar dan mengembangkan proyek berbasis Python. Dengan memahami cara penggunaannya, Anda dapat lebih produktif dalam melakukan analisis data, pengembangan model, dan eksperimen lainnya.
+
+---
+Semoga panduan ini membantu Anda dalam memahami dasar-dasar Jupyter Notebook!
