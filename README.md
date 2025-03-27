@@ -31,3 +31,24 @@ Jupyter Notebook terdiri dari beberapa elemen:
 1. **Code Cell**: Digunakan untuk menulis dan menjalankan kode Python.
 2. **Markdown Cell**: Digunakan untuk menulis teks dengan format Markdown.
 3. **Raw Cell**: Menyimpan teks mentah tanpa format tertentu.
+
+## 6. Menjalankan Kode di Jupyter Notebook
+Untuk menjalankan sel kode, tekan `Shift + Enter` atau klik tombol "Run" di toolbar.
+
+Contoh:
+```python
+print("Hello, Jupyter Notebook!")
+```
+
+## 7. Penggunaan Markdown dalam Jupyter Notebook
+Markdown digunakan untuk membuat teks terformat dalam notebook. Contoh:
+
+```markdown
+# Judul Utama
+## Subjudul
+**Teks Tebal**
+*Italic*
+```
+
+## 8. Menyimpan dan Mengekspor Notebook
+Untuk menyimpan notebook, klik **File > Save and Checkpoint**. Notebook juga bisa diekspor ke format lain seperti **HTML, PDF, dan script Python** melalui **File > Download as**.
