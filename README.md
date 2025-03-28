@@ -25,3 +25,16 @@ Contoh:
 ```python
 print("Hello, Jupyter Notebook!")
 ```
+
+## 5. Penggunaan Markdown dalam Jupyter Notebook
+Markdown digunakan untuk membuat teks terformat dalam notebook. Contoh:
+
+```markdown
+# Judul Utama
+## Subjudul
+**Teks Tebal**
+*Italic*
+```
+
+## 6. Menyimpan dan Mengekspor Notebook
+Untuk menyimpan notebook, klik **File > Save and Checkpoint**. Notebook juga bisa diekspor ke format lain seperti **HTML, PDF, dan script Python** melalui **File > Download as**.
