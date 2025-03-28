@@ -38,3 +38,25 @@ Markdown digunakan untuk membuat teks terformat dalam notebook. Contoh:
 
 ## 6. Menyimpan dan Mengekspor Notebook
 Untuk menyimpan notebook, klik **File > Save and Checkpoint**. Notebook juga bisa diekspor ke format lain seperti **HTML, PDF, dan script Python** melalui **File > Download as**.
+
+## 7. Menjalankan Perintah Terminal di Jupyter Notebook
+Anda bisa menjalankan perintah terminal langsung dari dalam notebook dengan menggunakan awalan `!`.
+
+Contoh:
+```python
+!ls  # Menampilkan daftar file di direktori (Linux/macOS)
+!dir  # Menampilkan daftar file di direktori (Windows)
+```
+
+## 8. Menggunakan Magic Commands
+Magic commands adalah fitur khusus dalam Jupyter Notebook yang memudahkan berbagai tugas.
+
+Contoh:
+- `%timeit`: Mengukur waktu eksekusi suatu perintah.
+- `%run nama_script.py`: Menjalankan script Python.
+- `%matplotlib inline`: Menampilkan plot secara langsung di dalam notebook.
+
+Contoh penggunaan:
+```python
+%timeit sum(range(1000))
+```
