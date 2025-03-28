@@ -1,66 +1,14 @@
-# Panduan Belajar IPython Notebook (.ipynb)
+# Belajar IPython Notebook (.ipynb)
 
-## 1. Pengenalan IPython Notebook
-IPython Notebook (sekarang disebut Jupyter Notebook) adalah sebuah lingkungan interaktif yang memungkinkan pengguna untuk menulis dan menjalankan kode Python dalam bentuk sel-sel (cells). File dengan ekstensi `.ipynb` merupakan format yang digunakan oleh Jupyter Notebook untuk menyimpan kode, teks, dan output dalam satu dokumen.
-
-## 2. Instalasi Jupyter Notebook
-Sebelum menggunakan Jupyter Notebook, Anda perlu menginstalnya terlebih dahulu. Gunakan salah satu perintah berikut:
-
-```bash
-pip install notebook
-```
-atau jika menggunakan Anaconda:
-```bash
-conda install -c conda-forge notebook
-```
-
-## 3. Menjalankan Jupyter Notebook
+## 1. Menjalankan Jupyter Notebook
 Setelah instalasi selesai, jalankan Jupyter Notebook dengan perintah berikut:
 ```bash
 jupyter notebook
 ```
-Perintah ini akan membuka antarmuka Jupyter Notebook di browser.
+Perintah ini akan membuka antarmuka Jupyter Notebook di browser, tempat Anda dapat membuat dan mengelola notebook.
 
-## 4. Struktur Jupyter Notebook
+## 2. Struktur Jupyter Notebook
 Jupyter Notebook terdiri dari beberapa elemen:
 - **Sel (Cell)**: Unit utama untuk menulis kode atau teks.
 - **Kernel**: Proses yang menjalankan kode dalam notebook.
 - **Toolbar**: Berisi berbagai opsi untuk menjalankan kode, menyimpan notebook, dan mengelola sel.
-
-## 5. Jenis-Jenis Sel dalam Jupyter Notebook
-1. **Code Cell**: Digunakan untuk menulis dan menjalankan kode Python.
-2. **Markdown Cell**: Digunakan untuk menulis teks dengan format Markdown.
-3. **Raw Cell**: Menyimpan teks mentah tanpa format tertentu.
-
-## 6. Menjalankan Kode di Jupyter Notebook
-Untuk menjalankan sel kode, tekan `Shift + Enter` atau klik tombol "Run" di toolbar.
-
-Contoh:
-```python
-print("Hello, Jupyter Notebook!")
-```
-
-## 7. Penggunaan Markdown dalam Jupyter Notebook
-Markdown digunakan untuk membuat teks terformat dalam notebook. Contoh:
-
-```markdown
-# Judul Utama
-## Subjudul
-**Teks Tebal**
-*Italic*
-```
-
-## 8. Menyimpan dan Mengekspor Notebook
-Untuk menyimpan notebook, klik **File > Save and Checkpoint**. Notebook juga bisa diekspor ke format lain seperti **HTML, PDF, dan script Python** melalui **File > Download as**.
-
-## 9. Keuntungan Menggunakan Jupyter Notebook
-- Interaktif dan mudah digunakan.
-- Mendukung visualisasi data.
-- Cocok untuk eksplorasi data dan machine learning.
-- Dapat digunakan dalam berbagai bahasa pemrograman selain Python.
-
-## 10. Kesimpulan
-Jupyter Notebook adalah alat yang sangat berguna untuk belajar dan mengembangkan proyek berbasis Python. Dengan memahami cara penggunaannya, Anda dapat lebih produktif dalam melakukan analisis data, pengembangan model, dan eksperimen lainnya.
-
----
-Semoga panduan ini membantu Anda dalam memahami dasar-dasar Jupyter Notebook!
