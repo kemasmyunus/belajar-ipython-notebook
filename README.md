@@ -60,3 +60,31 @@ Contoh penggunaan:
 ```python
 %timeit sum(range(1000))
 ```
+
+## 9. Visualisasi Data dalam Jupyter Notebook
+Jupyter Notebook mendukung berbagai pustaka visualisasi data seperti **Matplotlib** dan **Seaborn**.
+
+Contoh menggunakan Matplotlib:
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 40]
+
+plt.plot(x, y)
+plt.xlabel("X Label")
+plt.ylabel("Y Label")
+plt.title("Contoh Grafik")
+plt.show()
+```
+
+## 10. Menggunakan Pandas untuk Analisis Data
+Pandas adalah pustaka yang sering digunakan untuk analisis data di Jupyter Notebook.
+
+Contoh membaca dan menampilkan data dari file CSV:
+```python
+import pandas as pd
+
+df = pd.read_csv("data.csv")
+print(df.head())
+```
